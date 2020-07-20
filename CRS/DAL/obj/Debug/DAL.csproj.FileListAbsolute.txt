@@ -1,0 +1,9 @@
+D:\2020-Visual Studio 2019-Demo\DEOM\CRS\DAL\bin\Debug\DAL.dll
+D:\2020-Visual Studio 2019-Demo\DEOM\CRS\DAL\bin\Debug\DAL.pdb
+D:\2020-Visual Studio 2019-Demo\DEOM\CRS\DAL\bin\Debug\Model.dll
+D:\2020-Visual Studio 2019-Demo\DEOM\CRS\DAL\bin\Debug\Model.pdb
+D:\2020-Visual Studio 2019-Demo\DEOM\CRS\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+D:\2020-Visual Studio 2019-Demo\DEOM\CRS\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\2020-Visual Studio 2019-Demo\DEOM\CRS\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\2020-Visual Studio 2019-Demo\DEOM\CRS\DAL\obj\Debug\DAL.dll
+D:\2020-Visual Studio 2019-Demo\DEOM\CRS\DAL\obj\Debug\DAL.pdb

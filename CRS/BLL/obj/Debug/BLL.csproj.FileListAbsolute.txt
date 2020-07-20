@@ -1,0 +1,11 @@
+D:\2020-Visual Studio 2019-Demo\DEOM\CRS\BLL\bin\Debug\BLL.dll
+D:\2020-Visual Studio 2019-Demo\DEOM\CRS\BLL\bin\Debug\BLL.pdb
+D:\2020-Visual Studio 2019-Demo\DEOM\CRS\BLL\bin\Debug\DAL.dll
+D:\2020-Visual Studio 2019-Demo\DEOM\CRS\BLL\bin\Debug\Model.dll
+D:\2020-Visual Studio 2019-Demo\DEOM\CRS\BLL\bin\Debug\DAL.pdb
+D:\2020-Visual Studio 2019-Demo\DEOM\CRS\BLL\bin\Debug\Model.pdb
+D:\2020-Visual Studio 2019-Demo\DEOM\CRS\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+D:\2020-Visual Studio 2019-Demo\DEOM\CRS\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\2020-Visual Studio 2019-Demo\DEOM\CRS\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\2020-Visual Studio 2019-Demo\DEOM\CRS\BLL\obj\Debug\BLL.dll
+D:\2020-Visual Studio 2019-Demo\DEOM\CRS\BLL\obj\Debug\BLL.pdb
