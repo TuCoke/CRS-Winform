@@ -32,10 +32,10 @@
             this.label2 = new System.Windows.Forms.Label();
             this.RegistName = new System.Windows.Forms.TextBox();
             this.registpwd = new System.Windows.Forms.TextBox();
-            this.Change = new System.Windows.Forms.Button();
             this.registRpwd = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.Back_Login = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -58,9 +58,10 @@
             // 
             // RegistName
             // 
+            this.RegistName.Enabled = false;
             this.RegistName.Location = new System.Drawing.Point(184, 65);
             this.RegistName.Name = "RegistName";
-            this.RegistName.Size = new System.Drawing.Size(100, 21);
+            this.RegistName.Size = new System.Drawing.Size(123, 21);
             this.RegistName.TabIndex = 2;
             this.RegistName.TextChanged += new System.EventHandler(this.RegistName_TextChanged);
             // 
@@ -68,24 +69,16 @@
             // 
             this.registpwd.Location = new System.Drawing.Point(184, 123);
             this.registpwd.Name = "registpwd";
-            this.registpwd.Size = new System.Drawing.Size(100, 21);
+            this.registpwd.PasswordChar = '*';
+            this.registpwd.Size = new System.Drawing.Size(123, 21);
             this.registpwd.TabIndex = 3;
-            // 
-            // Change
-            // 
-            this.Change.Location = new System.Drawing.Point(312, 65);
-            this.Change.Name = "Change";
-            this.Change.Size = new System.Drawing.Size(75, 23);
-            this.Change.TabIndex = 4;
-            this.Change.Text = "换一个？";
-            this.Change.UseVisualStyleBackColor = true;
-            this.Change.Click += new System.EventHandler(this.Change_Click);
             // 
             // registRpwd
             // 
             this.registRpwd.Location = new System.Drawing.Point(184, 179);
             this.registRpwd.Name = "registRpwd";
-            this.registRpwd.Size = new System.Drawing.Size(100, 21);
+            this.registRpwd.PasswordChar = '*';
+            this.registRpwd.Size = new System.Drawing.Size(123, 21);
             this.registRpwd.TabIndex = 5;
             // 
             // label3
@@ -107,15 +100,25 @@
             this.Back_Login.UseVisualStyleBackColor = true;
             this.Back_Login.Click += new System.EventHandler(this.Back_Login_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(210, 262);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(60, 42);
+            this.button1.TabIndex = 8;
+            this.button1.Text = "注册";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Registered
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(509, 386);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.Back_Login);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.registRpwd);
-            this.Controls.Add(this.Change);
             this.Controls.Add(this.registpwd);
             this.Controls.Add(this.RegistName);
             this.Controls.Add(this.label2);
@@ -134,9 +137,9 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox RegistName;
         private System.Windows.Forms.TextBox registpwd;
-        private System.Windows.Forms.Button Change;
         private System.Windows.Forms.TextBox registRpwd;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button Back_Login;
+        private System.Windows.Forms.Button button1;
     }
 }

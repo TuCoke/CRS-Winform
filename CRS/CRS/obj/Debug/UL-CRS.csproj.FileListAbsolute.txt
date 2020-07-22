@@ -75,3 +75,5 @@ D:\2020-Visual Studio 2019-Demo\DEOM\CRS\CRS\bin\Debug\Bunifu.UI.WinForms.Bunifu
 D:\2020-Visual Studio 2019-Demo\DEOM\CRS\CRS\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.xml
 D:\2020-Visual Studio 2019-Demo\DEOM\CRS\CRS\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.xml
 D:\2020-Visual Studio 2019-Demo\DEOM\CRS\CRS\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.xml
+D:\2020-Visual Studio 2019-Demo\DEOM\CRS\CRS\obj\Debug\CRS.Editpd.resources
+D:\2020-Visual Studio 2019-Demo\DEOM\CRS\CRS\obj\Debug\CRS.Deposit.resources

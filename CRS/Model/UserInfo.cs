@@ -11,6 +11,6 @@ namespace Model
         public int User_id { get; set; }
         public string Card_Number { get; set; }
         public string Card_Password { get; set; }
-        public int Amount_id { get; set; }
+        public string Amount_Number { get; set; }
     }
 }
