@@ -82,3 +82,12 @@ D:\2020-Visual Studio 2019-Demo\DEOM\CRS\CRS\obj\Debug\CRS.Withdrawal.resources
 D:\2020-Visual Studio 2019-Demo\DEOM\CRS\CRS\obj\Debug\CRS.Transaction.resources
 D:\2020-Visual Studio 2019-Demo\DEOM\CRS\CRS\obj\Debug\CRS.ConfirmPwd.resources
 D:\2020-Visual Studio 2019-Demo\DEOM\CRS\CRS\obj\Debug\CRS.Transfer.resources
+D:\2020-Visual Studio 2019-Demo\DEOM\CRS\CRS\bin\Debug\BouncyCastle.Crypto.dll
+D:\2020-Visual Studio 2019-Demo\DEOM\CRS\CRS\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\2020-Visual Studio 2019-Demo\DEOM\CRS\CRS\bin\Debug\NPOI.dll
+D:\2020-Visual Studio 2019-Demo\DEOM\CRS\CRS\bin\Debug\NPOI.OOXML.dll
+D:\2020-Visual Studio 2019-Demo\DEOM\CRS\CRS\bin\Debug\NPOI.OpenXml4Net.dll
+D:\2020-Visual Studio 2019-Demo\DEOM\CRS\CRS\bin\Debug\NPOI.OpenXmlFormats.dll
+D:\2020-Visual Studio 2019-Demo\DEOM\CRS\CRS\bin\Debug\BouncyCastle.Crypto.xml
+D:\2020-Visual Studio 2019-Demo\DEOM\CRS\CRS\bin\Debug\ICSharpCode.SharpZipLib.pdb
+D:\2020-Visual Studio 2019-Demo\DEOM\CRS\CRS\bin\Debug\ICSharpCode.SharpZipLib.xml
