@@ -103,45 +103,25 @@ namespace CRS
             Microsoft.Office.Interop.Excel.Range rangedata;
 
             //设置对象不可见
-
             appexcel.Visible = false;
-
             System.Globalization.CultureInfo currentci = System.Threading.Thread.CurrentThread.CurrentCulture;
-
             System.Threading.Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("en-us");
-
             workbookdata = appexcel.Workbooks.Add(miss);
-
             worksheetdata = (Microsoft.Office.Interop.Excel.Worksheet)workbookdata.Worksheets.Add(miss, miss, miss, miss);
-
             //给工作表赋名称
-
             worksheetdata.Name = "saved";
-
             for (int i = 0; i < dt.Columns.Count; i++)
-
             {
-
                 worksheetdata.Cells[1, i + 1] = dt.Columns[i].ColumnName.ToString();
-
             }
-
             //因为第一行已经写了表头，所以所有数据都应该从a2开始
-
             rangedata = worksheetdata.get_Range("a2", miss);
-
             Microsoft.Office.Interop.Excel.Range xlrang = null;
-
             //irowcount为实际行数，最大行
-
             int irowcount = dt.Rows.Count;
-
             int iparstedrow = 0, icurrsize = 0;
-
             //ieachsize为每次写行的数值，可以自己设置
-
             int ieachsize = 1000;
-
             //icolumnaccount为实际列数，最大列数
 
             int icolumnaccount = dt.Columns.Count;
