@@ -15,6 +15,7 @@ namespace CRS
     public partial class Deposit : Form
     {
         BankBLL bankbll = new BankBLL();
+        RecordingBLL recordingbll = new RecordingBLL();
         public Deposit()
         {
             InitializeComponent();
@@ -25,6 +26,7 @@ namespace CRS
         public Deposit(string usernumber)
         {
             InitializeComponent();
+            //传递当前登录卡号
             label2.Text = usernumber;
         }
         private void Withdrawal_Load(object sender, EventArgs e)
@@ -54,13 +56,19 @@ namespace CRS
                 bool result2 = bankbll.AmountNumber(userInfo);
                 if (result2 == true)
                 {
+                    //4、如果存入金额成功则存入记录表
+                    RecordingInfo recordingInfo = new RecordingInfo();
+                    recordingInfo.Timet = DateTime.Now.ToString();
+                    recordingInfo.Details = "存款" + Amount.Text.ToString() + "金额";
+                    recordingInfo.Card_Number = sum().ToString();
+                    bool record = recordingbll.Deposit(recordingInfo);
                     MessageBox.Show("存款:'"+ Amount.Text.ToString() + "'成功");
                     this.Owner.Show();
                     this.Close();
                 }
                 else
                 {
-
+                    MessageBox.Show("存款失败，请重新输入");
                 }
             }
         }
@@ -73,6 +81,15 @@ namespace CRS
         {
             this.Owner.Show();
             this.Close();
+        }
+        /// <summary>
+        /// 当前用户卡号
+        /// </summary>
+        /// <returns></returns>
+        public string sum()
+        {
+            string number = label2.Text;
+            return number;
         }
     }
 }

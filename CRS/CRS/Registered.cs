@@ -77,9 +77,9 @@ namespace CRS
             //生成卡号
             string account = "621288";
             Random rand = new Random();
-            for (int i = 0; i < 10; i++)
+            for (int i = 0; i < 9; i++)
             {
-                account += rand.Next(0, 11);
+                account += rand.Next(0, 10);
             }
             return account;
         }

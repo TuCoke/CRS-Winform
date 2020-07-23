@@ -36,6 +36,7 @@
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.editpwd = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.back = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // oldpwd
@@ -107,11 +108,22 @@
             this.label1.Visible = false;
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
+            // back
+            // 
+            this.back.Location = new System.Drawing.Point(12, 9);
+            this.back.Name = "back";
+            this.back.Size = new System.Drawing.Size(75, 23);
+            this.back.TabIndex = 8;
+            this.back.Text = "退出";
+            this.back.UseVisualStyleBackColor = true;
+            this.back.Click += new System.EventHandler(this.back_Click);
+            // 
             // Editpd
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(477, 410);
+            this.Controls.Add(this.back);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.editpwd);
             this.Controls.Add(this.textBox3);
@@ -137,5 +149,6 @@
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Button editpwd;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button back;
     }
 }

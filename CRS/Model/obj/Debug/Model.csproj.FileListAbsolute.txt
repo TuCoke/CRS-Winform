@@ -3,4 +3,3 @@ D:\2020-Visual Studio 2019-Demo\DEOM\CRS\Model\bin\Debug\Model.pdb
 D:\2020-Visual Studio 2019-Demo\DEOM\CRS\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
 D:\2020-Visual Studio 2019-Demo\DEOM\CRS\Model\obj\Debug\Model.dll
 D:\2020-Visual Studio 2019-Demo\DEOM\CRS\Model\obj\Debug\Model.pdb
-D:\2020-Visual Studio 2019-Demo\DEOM\CRS\Model\obj\Debug\Model.csprojAssemblyReference.cache

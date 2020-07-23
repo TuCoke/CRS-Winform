@@ -77,3 +77,8 @@ D:\2020-Visual Studio 2019-Demo\DEOM\CRS\CRS\bin\Debug\Bunifu.UI.WinForms.Bunifu
 D:\2020-Visual Studio 2019-Demo\DEOM\CRS\CRS\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.xml
 D:\2020-Visual Studio 2019-Demo\DEOM\CRS\CRS\obj\Debug\CRS.Editpd.resources
 D:\2020-Visual Studio 2019-Demo\DEOM\CRS\CRS\obj\Debug\CRS.Deposit.resources
+D:\2020-Visual Studio 2019-Demo\DEOM\CRS\CRS\obj\Debug\CRS.Balance.resources
+D:\2020-Visual Studio 2019-Demo\DEOM\CRS\CRS\obj\Debug\CRS.Withdrawal.resources
+D:\2020-Visual Studio 2019-Demo\DEOM\CRS\CRS\obj\Debug\CRS.Transaction.resources
+D:\2020-Visual Studio 2019-Demo\DEOM\CRS\CRS\obj\Debug\CRS.ConfirmPwd.resources
+D:\2020-Visual Studio 2019-Demo\DEOM\CRS\CRS\obj\Debug\CRS.Transfer.resources

@@ -9,8 +9,8 @@ namespace Model
     public class RecordingInfo
     {
         public int Recording_id { get; set; }
-        public string Time { get; set; }
+        public string Timet { get; set; }
         public string Details { get; set; }
-        public int User_id { get; set; }
+        public string Card_Number { get; set; }
     }
 }

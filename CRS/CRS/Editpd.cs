@@ -89,5 +89,16 @@ namespace CRS
         {
 
         }
+        /// <summary>
+        /// 退出修改密码
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void back_Click(object sender, EventArgs e)
+        {
+            //关闭当前窗体
+            this.Owner.Show();
+            this.Close();
+        }
     }
 }

@@ -7,3 +7,12 @@ D:\2020-Visual Studio 2019-Demo\DEOM\CRS\DAL\obj\Debug\DAL.csproj.CoreCompileInp
 D:\2020-Visual Studio 2019-Demo\DEOM\CRS\DAL\obj\Debug\DAL.csproj.CopyComplete
 D:\2020-Visual Studio 2019-Demo\DEOM\CRS\DAL\obj\Debug\DAL.dll
 D:\2020-Visual Studio 2019-Demo\DEOM\CRS\DAL\obj\Debug\DAL.pdb
+D:\2020-Visual Studio 2019-Demo\DEOM\CRS\DAL\bin\Debug\BouncyCastle.Crypto.dll
+D:\2020-Visual Studio 2019-Demo\DEOM\CRS\DAL\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\2020-Visual Studio 2019-Demo\DEOM\CRS\DAL\bin\Debug\NPOI.dll
+D:\2020-Visual Studio 2019-Demo\DEOM\CRS\DAL\bin\Debug\NPOI.OOXML.dll
+D:\2020-Visual Studio 2019-Demo\DEOM\CRS\DAL\bin\Debug\NPOI.OpenXml4Net.dll
+D:\2020-Visual Studio 2019-Demo\DEOM\CRS\DAL\bin\Debug\NPOI.OpenXmlFormats.dll
+D:\2020-Visual Studio 2019-Demo\DEOM\CRS\DAL\bin\Debug\BouncyCastle.Crypto.xml
+D:\2020-Visual Studio 2019-Demo\DEOM\CRS\DAL\bin\Debug\ICSharpCode.SharpZipLib.pdb
+D:\2020-Visual Studio 2019-Demo\DEOM\CRS\DAL\bin\Debug\ICSharpCode.SharpZipLib.xml
