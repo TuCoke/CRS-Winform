@@ -56,13 +56,16 @@ namespace CRS
             else
             {
                 MessageBox.Show("操作进行中");
-            //判断当前用户余额
+            //1、判断当前用户余额
             string usercard = label4.Text;
             string resutl3 = bankbll.UserBalance(usercard);
             int resu =Convert.ToInt32(resutl3);
             int TransferNumber = Convert.ToInt32(label3.Text);
-            //2、当前用户余额减去转账的数字
-            int TotalNumber = resu - TransferNumber;
+                //1、1判断当前用户的余额是否小于转账金额
+                if (resu > TransferNumber)
+                {
+                //2、当前用户余额减去转账的数字
+                int TotalNumber = resu - TransferNumber;
                 //1、延迟两秒执行用户转账
 
                 //2、先把当前卡号下的余额减去转走的金额 Number
@@ -92,6 +95,12 @@ namespace CRS
                         this.Close();
 
                     }
+                }
+
+                }
+                else
+                {
+                    MessageBox.Show("转账失败，你的余额不足");
                 }
             }
         }

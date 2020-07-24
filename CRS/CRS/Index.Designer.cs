@@ -140,7 +140,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(722, 449);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -152,7 +152,7 @@
             this.Controls.Add(this.Back);
             this.Controls.Add(this.button1);
             this.Name = "Index";
-            this.Text = "Index";
+            this.Text = " Index";
             this.Load += new System.EventHandler(this.Index_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
